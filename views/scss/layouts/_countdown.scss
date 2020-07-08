@@ -1,0 +1,35 @@
+.countdown {
+    margin-top: 10px;
+    background: var(--background-color);
+    height: 300px;
+    .countdown__content {
+        width: 90%;
+        margin: 0 auto;
+        vertical-align: middle;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        .countdown__item {
+            padding-top: var(--padding-top);
+            max-width: 100%;
+            width: 25%;
+            color: white;
+            font-size: 36px;
+            letter-spacing: 2px;
+            .item-group {
+                position: relative;
+                width: 100%;
+                text-align: center;
+                .countdown__text {
+                    position: absolute;
+                    font-size: var(--fontSize);
+                    bottom: -50px;
+                    width: 100%;
+                    left: 0;
+                    text-align: center;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    }
+}
