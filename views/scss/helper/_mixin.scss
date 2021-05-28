@@ -1,0 +1,5 @@
+@mixin style($fs,$color,$ls) {
+    font-size: $fs;
+    color: $color;
+    letter-spacing: $ls;
+}

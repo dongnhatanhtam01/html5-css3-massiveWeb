@@ -1,0 +1,21 @@
+{
+    "name": "lms_sass",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "lite-server"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^4.4.1",
+        "jquery": "^3.4.1",
+        "live-server": "^1.2.1",
+        "popper.js": "^1.16.1"
+    },
+    "devDependencies": {
+        "lite-server": "^2.5.4"
+    }
+}

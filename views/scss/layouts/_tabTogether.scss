@@ -1,0 +1,83 @@
+.TabTogether {
+    .TabTogether__pattern {
+        padding-top: var(--padding-top);
+        margin-top: var(--margin-top);
+        background-image: url('../../img/pattern-2.png');
+        background-repeat: repeat;
+        height: 500px;
+        background-attachment: fixed;
+        width: 100%;
+        .TabTogether__content {
+            width: 80%;
+            margin: 0 auto;
+            .nav-tabs {
+                border-bottom: none;
+            }
+            .nav-item {
+                padding-left: 15px;
+                .nav-link {
+                    color: white;
+                    background: rgba(0, 0, 0, 0.1);
+                    border: none;
+                    border-top-left-radius: none;
+                    border-top-right-radius: none;
+                    padding: 30px 70px;
+                    &:hover {
+                        background: #ffffff;
+                        color: black;
+                        transition: all .4s;
+                    }
+                }
+                .active {
+                    background: white;
+                    color: black;
+                }
+                // &::after {
+                //     position: absolute;
+                //     bottom: -10px;
+                //     left: 50%;
+                //     width: 0;
+                //     height: 0;
+                //     margin-left: -10px;
+                //     content: "";
+                //     -webkit-transition: all .3s ease;
+                //     transition: all .3s ease;
+                //     opacity: 0;
+                //     border-width: 10px 10px 0 10px;
+                //     border-style: solid;
+                //     border-color: #fff transparent transparent transparent;
+                // }
+            }
+            i {
+                font-size: $fs-0 *2.5;
+            }
+            .tab-content {
+                padding-left: 15px;
+                padding-top: 30px;
+                h2 {
+                    margin: 0 0 30px 0;
+                    color: #333;
+                    font-weight: normal;
+                    line-height: 1.5;
+                    font-size: 30px;
+                    letter-spacing: 2px;
+                }
+                span {
+                    margin-top: 20px;
+                    letter-spacing: 2px;
+                    color: #7e7e7e;
+                    /* font-family: 'Abel', sans-serif; */
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    line-height: 30px;
+                }
+                p {
+                    color: #7e7e7e;
+                    font-size: 15px;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}
